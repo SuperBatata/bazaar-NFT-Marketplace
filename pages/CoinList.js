@@ -3,7 +3,7 @@ import Coins from "./Coins";
 const CoinList = ({ coinsData }) => {
   return (
     <>
-      {coinsData.map((coin) => {
+      {coinsData?.map((coin) => {
         return (
           <Coins
             key={coin.id}

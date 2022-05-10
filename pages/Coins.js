@@ -21,19 +21,19 @@ const Coin = ({
         </div>
         <div className={styles.coin__data}>
           <p className={styles.coin__price}>${price}</p>
-          <p className={styles.coin__volume}>${volume.toLocaleString}</p>
+          {/* <p className={styles.coin__volume}>${volume.toLocaleString}</p> */}
           {priceChange < 0 ? (
             <p className={(styles.coin__percent, styles.red)}>
-              {priceChange.toFixed(2)}
+              {priceChange}
             </p>
           ) : (
             <p className={(styles.coin__percent, styles.green)}>
-              {priceChange.toFixed(2)}
+              {priceChange}
             </p>
           )}
-          <p className={styles.coin__marketcap}>
+          {/* <p className={styles.coin__marketcap}>
             Mkt Cap: ${marketcap.toLocaleString()}
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

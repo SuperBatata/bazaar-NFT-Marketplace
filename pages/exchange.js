@@ -20,7 +20,6 @@ export default function Exchange() {
 
   useEffect(() => {
     loadCoins();
-    filteredCoins;
   }, []);
   async function loadCoins() {
     const res = await fetch(
