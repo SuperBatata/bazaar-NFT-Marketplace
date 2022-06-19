@@ -23,6 +23,6 @@ npx hardhat run scripts/deploy.js --network localhost
 npm run dev
 ```
 
-##DEMO
+# DEMO
 
-[![Watch the video]([https://i.imgur.com/vKb2F1B.png](https://i9.ytimg.com/vi/eXAS69UxnLQ/mq2.jpg?sqp=CNybvZUG&rs=AOn4CLC8SdgPtI1jtH1EKwoy-UF6kB2_bg))](https://youtu.be/eXAS69UxnLQ)
+[![Watch the video](https://i9.ytimg.com/vi/eXAS69UxnLQ/mq2.jpg?sqp=CNybvZUG&rs=AOn4CLC8SdgPtI1jtH1EKwoy-UF6kB2_bg)](https://youtu.be/eXAS69UxnLQ)
